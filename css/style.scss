@@ -214,11 +214,10 @@ ul.menu li.icon {display: none;
         text-align: center;
         padding-bottom: 2%;
     }
-img {
+img transition {
       height: 250px;
       -webkit-transition: all 1s ease;
          -moz-transition: all 1s ease;
-           -o-transition: all 1s ease;
           -ms-transition: all 1s ease;
               transition: all 1s ease;
     }
@@ -282,6 +281,8 @@ ul.menu li.icon {
      display: inline-block;
    }
 }
+
+img transition {display: none;}
 
 @media (max-width:478px) {
   #logo_container {
