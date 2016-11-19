@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bookreads Bookshelf</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!--BOOM, Javascript-->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "menu") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu";
+    }
+}
+</script>
+
+<!-- Mike, dropped-->
+  </head>
+  <body>
+
+
+<!--Logo Area-->
+<header>
+  <div id='logo_container'>
+    <h1 id='logo'><img src = "images/logosm.png" class="logo" alt = "logo"/></h1>
+
+
+</header>
+
+<!-- Responsive Navbar-->
+<nav>
+  <ul class="menu" id="mytopnav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Recommended</a></li>
+    <li><a href="#">Best Sellers</a></li>
+      <li><a href="#">My Bookshelf</a></li>
+      <div id="search" title="Type and hit enter"> <form action="/search" id="searchform" method="get"> <input id="s" name="q" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}" onfocus="if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}" type="text" value="Search Goodreads.com" /><img src="images/search.png" class="searchicon" alt="search this site"> </form></div>
+<!-- Media Icon-->
+    <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+  </ul>
+</nav>
+
+
+<!--Hero-->
+<div class="heroimage">
+  <div class="message">
+    <p>"A book is a dream that you hold in your hand" –Neil Gaiman</p>
+  </div>
+</div>
+<div class="black-divider">
+</div>
+
+<!--Books-->
+<div class="contentbackgound">
+
+  <div class="title"><a href="#">Books to read</a></div>
+  <div class="sort">
+    <span class="new"><a href="#">Newest</a></span>
+    <span class="old"><a href="#">Oldest</a></span>
+  </div>
+
+ <div class="images-container" id="images">
+   <div class="images-wrapper">
+    <div class="books-in-all-screens">
+        <img src="images/book1.png" alt="ashley elston book">
+      </div>
+    <div class="books-in-medium-device-screens">
+        <img src="images/book2.png" alt="batman book">
+      </div>
+    <div class="books-in-medium-device-screens">
+        <img src="images/book3.png" alt="mikubon book">
+      </div>
+    <div class="books-out-small-device-screens">
+        <img src="images/book4.png" alt="batman book">
+      </div>
+    <div class="books-out-small-device-screens">
+        <img src="images/book5.png" alt="ashley elston book">
+      </div>
+      <div class="books-out-small-device-screens">
+        <img src="images/book6.png" alt="batman book">
+      </div>
+    </div>
+    <br>
+  <hr>
+  <div class="seeall"><a href="#">See all></a></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<!--
+    <div class="title"><a href="#">Books already read</a></div>
+    <div class="sort">
+      <div class="new"><a href="#">Newest</a></div>
+      <div class="old"><a href="#">Oldest</a></div>
+    </div>
+
+
+
+  <div class="bookimages">
+    <img src="images/book7.png" alt="ashley elston book">
+    <img src="images/book8.png" alt="batman book">
+    <img src="images/book9.png" alt="mikubon book">
+    <img src="images/book10.png" alt="batman book" class="fourthimage" />
+    <img src="images/book11.png" alt="batman book" class="fourthimage" />
+    <img src="images/book12.png" alt="batman book" class="fourthimage" />
+  </div>
+  <hr>
+  <div class="seeall"><a href="#">See all></a></div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="title"><a href="#">Books to review</a></div>
+    <div class="sort">
+      <div class="new"><a href="#">Newest</a></div>
+      <div class="old"><a href="#">Oldest</a></div>
+    </div>
+
+
+
+  <div class="bookimages">
+    <img src="images/book13.jpg" alt="ashley elston book">
+    <img src="images/book14.jpg" alt="batman book">
+    <img src="images/book15.jpg" alt="mikubon book">
+    <img src="images/book16.jpg" alt="batman book" class="fourthimage" />
+    <img src="images/book17.jpg" alt="batman book" class="fourthimage" />
+    <img src="images/book18.jpg" alt="batman book" class="fourthimage" />
+  </div>
+  <hr>
+  <div class="seeall"><a href="#">See all></a></div>
+</div>
+
+-->
+
+</div> <!--Content div close-->
+<footer>
+   <div class="theend"><a>© Goodreads, all rights reserved    |     This Page is a project by: Eloisa Docton for The Iron Yard Raleigh UI Design Course. </a>
+   </div>
+</footer>
+  </body>
+</html>
