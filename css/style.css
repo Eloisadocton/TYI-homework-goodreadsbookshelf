@@ -166,15 +166,16 @@ section {
 .section-top {
   margin-right: 10%; }
   .section-top .gr-icon img {
+    clear: both;
     float: left;
-    margin-left: 51%;
-    height: 60px;
+    margin-left: 50%;
     margin-top: -2%;
-    margin-bottom: 1%; }
+    height: 60px;
+    opacity: 0.8; }
   .section-top .title {
     clear: both;
-    margin-left: 41%;
-    margin-top: 7%; }
+    margin-left: 38%;
+    margin-top: 9%; }
   .section-top .title a {
     text-decoration: none;
     text-transform: uppercase;
@@ -348,7 +349,7 @@ section {
   font-size: 12px; }
 
 /*Tablet sizes */
-@media (min-width: 479px) and (max-width: 767px) {
+@media (min-width: 668px) and (max-width: 1024px) {
   #search {
     display: none; }
 
@@ -380,10 +381,6 @@ section {
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: -10%; }
-
-  .contentbackgound .title a {
-    font-size: 25px;
-    float: left; }
 
   .contentbackgound .gr-icon img {
     float: left;
@@ -425,7 +422,7 @@ section {
     margin-top: 2%; }
 
   .content-margin: 0; }
-@media (max-width: 478px) {
+@media (max-width: 667px) {
   #search {
     display: none; }
 
