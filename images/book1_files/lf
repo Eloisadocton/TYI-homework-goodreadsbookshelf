@@ -1,0 +1,136 @@
+_lfinfojson = {
+  "response": {
+    "body": [
+    {
+      "job": [
+      {
+        "group": [
+        {
+          "type": "global",
+          "metadata": [
+          {
+            "name": "cacheKill",
+            "text": "1479831796141"
+          },
+          {
+            "name": "seed",
+            "text": "1472846733"
+          },
+          {
+            "name": "zap.metadata",
+            "text": "HASH(0x4039c00)"
+          }]
+        }]
+      }],
+      "image": [
+      {
+        "format": "JSON2",
+        "frames": "1",
+        "group": [
+        {
+          "type": "iptc"
+        },
+        {
+          "type": "exif",
+          "metadata": [
+          {
+            "name": "compression",
+            "text": "JPEG"
+          }]
+        },
+        {
+          "type": "image",
+          "metadata": [
+          {
+            "name": "colors",
+            "text": "92003"
+          },
+          {
+            "name": "colorspace",
+            "text": "RGB"
+          },
+          {
+            "name": "comment",
+            "text": " "
+          },
+          {
+            "name": "codec",
+            "text": "JPEG"
+          },
+          {
+            "name": "colordepth",
+            "text": "8"
+          },
+          {
+            "name": "gamma",
+            "text": "0"
+          },
+          {
+            "name": "height",
+            "text": "700"
+          },
+          {
+            "name": "interlacing",
+            "text": "None"
+          },
+          {
+            "name": "has-alpha",
+            "text": "0"
+          },
+          {
+            "name": "is-monochrome",
+            "text": "0"
+          },
+          {
+            "name": "quality",
+            "text": "0"
+          },
+          {
+            "name": "rendering-intent",
+            "text": "Undefined"
+          },
+          {
+            "name": "type",
+            "text": "Color"
+          },
+          {
+            "name": "units",
+            "text": "inch"
+          },
+          {
+            "name": "width",
+            "text": "435"
+          },
+          {
+            "name": "x-resolution",
+            "text": "72"
+          },
+          {
+            "name": "y-resolution",
+            "text": "72"
+          },
+          {
+            "name": "keywords"
+          },
+          {
+            "name": "parameters"
+          },
+          {
+            "name": "regions"
+          }]
+        }]
+      }]
+    }],
+    "header": [
+    {
+      "status": [
+      {
+        "status": "ok",
+        "message": [
+        {
+          
+        }]
+      }]
+    }]  
+  }
+}

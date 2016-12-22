@@ -72,7 +72,7 @@ ul.menu {
     background-color: $primary-color;
     text-align: center;
         }
-ul.menu li {display: inline-block;
+ul.menu li {display: inline;
         }
 ul.menu li a {
     display: inline-block;
@@ -90,6 +90,9 @@ ul.menu li a:hover {
                     }
 ul.menu li.icon {display: none;
                 }
+.mobilemenu {
+  display: none;
+}
 #search {
      float: right;
      background-color: $primary-color;
@@ -116,6 +119,9 @@ ul.menu li.icon {display: none;
     display:inline;
     height: 20px;
             }
+.mobilemenu {
+  display: none;
+}
 /* -- NAVBAR RULES END--*/
 /* -- HERO RULES START--*/
 .heroimage {
@@ -369,11 +375,54 @@ section {
 #search {display: none;}
 .books-out-small-device-screens {display: none;}
 .message {display: none;}
-ul.menu li {display: none;}
-ul.menu li.icon {
- float: right;
- display: inline-block;
+.menu {
+  display: none;
 }
+.mobilemenu {
+  display: block;
+  background-color: $primary-color;
+  float: right;
+  width: 100%;
+  }
+ul.mobilemenu {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    background-color: $primary-color;
+    text-align: right;
+        }
+ul.mobilemenu li {display: block;
+        }
+ul.mobilemenu li a {
+    display: inline-block;
+    color: $third-color;
+    text-align: right;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 17px;
+    @include maintext;
+              }
+ul.mobilemenu li a:hover {
+    color: $secondary-color;
+    background-color: $fifth-color;
+                    }
+ul.mobilemenu li.icon {display: none;
+                }
+.icon {
+  float: right;
+  color: $third-color;
+  text-align: right;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 17px;
+  @include maintext;
+}
+
 .sort { display: none;}
 .heroimage {
   background-image: url("../images/herophoto.jpg");
@@ -443,11 +492,48 @@ section {
 .message {display: none;}
 .sort { display: none;
 }
-ul.menu li {display: none;}
-ul.menu li.icon {
-   float: right;
-   display: inline-block;
-   }
+.menu {
+  display: none;
+}
+ul.mobilemenu {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    background-color: $primary-color;
+    text-align: right;
+        }
+ul.mobilemenu li {display: block;
+        }
+ul.mobilemenu li a {
+    display: inline-block;
+    color: $third-color;
+    text-align: right;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 17px;
+    @include maintext;
+              }
+ul.mobilemenu li a:hover {
+    color: $secondary-color;
+    background-color: $fifth-color;
+                    }
+ul.mobilemenu li.icon {display: none;
+                }
+.icon {
+  float: right;
+  color: $third-color;
+  text-align: right;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 17px;
+  @include maintext;
+}
+
 .heroimage {
   background-image: url("../images/herophoto.jpg");
   height: 250px;

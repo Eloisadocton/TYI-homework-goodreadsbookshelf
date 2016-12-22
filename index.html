@@ -8,17 +8,6 @@
     <script src="script.js"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-<!--A little Javascript-->
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "menu") {
-        x.className += " responsive";
-    } else {
-        x.className = "menu";
-    }
-}
-</script>
   </head>
   <body>
 <!--Logo Area-->
@@ -30,25 +19,37 @@ function myFunction() {
 
 <!-- Responsive Navbar-->
 <nav>
-  <ul class="menu" id="mytopnav">
+  <ul class="menu">
     <li><a href="#">Home</a></li>
     <li><a href="#">About Us</a></li>
     <li><a href="#">Recommended</a></li>
     <li><a href="#">Best Sellers</a></li>
       <li><a href="#">My Bookshelf</a></li>
       <div id="search" title="Type and hit enter"> <form action="/search" id="searchform" method="get"> <input id="s" name="q" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Search&quot;;}" onfocus="if (this.value == &quot;Search&quot;) {this.value = &quot;&quot;;}" type="text" value="Search Goodreads.com" /><img src="images/search.png" class="searchicon" alt="search this site"> </form></div>
+  </ul>
 <!-- Media Menu Icon-->
-    <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-    </li>
+  <ul class="mobilemenu">
+    <a href="#" class="icon" style="font-size:30px;">☰</a>
+    <br>
+    <br>
+    <br>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Recommended</a></li>
+    <li><a href="#">Best Sellers</a></li>
+    <li><a href="#">My Bookshelf</a></li>
   </ul>
 </nav>
+
+
 <!--Hero-->
 <div class="heroimage">
   <div class="message">
     <p>"A book is a dream that you hold in your hand" –Neil Gaiman</p>
   </div>
 </div>
+
+
 <!--Books Area-->
 <div class="contentbackgound">
 <!--Books To Read Section-->
@@ -70,25 +71,26 @@ function myFunction() {
 <div class="images-container" id="images">
   <div class="images-wrapper">
     <div class="books-in-all-screens"><div class=brighten><a href="#">
-      <img src="images/book1.png" alt="ashley elston book"></a>
+      <img src="images/book1.jpg" alt="ashley elston book"></a>
     </div>
   </div>
     <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-      <img src="images/book2.png" alt="batman book"></a>
+      <img src="images/book2.jpg" alt="batman book"></a>
     </div>
   </div>
     <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-      <img src="images/book3.png" alt="mikubon book"></a>
+      <img src="images/book3.jpg" alt="mikubon book"></a>
     </div>
   </div>
     <div class="books-out-small-device-screens"><div class=brighten><a href="#">
-      <img src="images/book4.png" alt="batman book"></a>
+      <img src="images/book4.jpg" alt="batman book"></a>
     </div>
   </div>
     <div class="books-out-small-device-screens"><div class=brighten><a href="#">
-      <img src="images/book5.png" alt="ashley elston book"></a>
+      <img src="images/book5.jpg" alt="ashley elston book"></a>
       </div>
     </div>
+    
   </div>
 </div>
     <br>
@@ -118,23 +120,23 @@ function myFunction() {
 <div class="images-container" id="images">
   <div class="images-wrapper">
    <div class="books-in-all-screens"><div class=brighten><a href="#">
-     <img src="images/book7.png" alt="ashley elston book"></a>
+     <img src="images/book6.jpg" alt="ashley elston book"></a>
    </div>
  </div>
    <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-     <img src="images/book8.png" alt="batman book"></a>
+     <img src="images/book7.jpg" alt="batman book"></a>
    </div>
  </div>
    <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-     <img src="images/book9.png" alt="mikubon book"></a>
+     <img src="images/book8.jpg" alt="mikubon book"></a>
    </div>
  </div>
    <div class="books-out-small-device-screens"><div class=brighten><a href="#">
-     <img src="images/book10.png" alt="batman book"></a>
+     <img src="images/book9.jpg" alt="batman book"></a>
    </div>
  </div>
   <div class="books-out-small-device-screens"><div class=brighten><a href="#">
-    <img src="images/book12.png" alt="batman book"></a>
+    <img src="images/book10.jpg" alt="batman book"></a>
       </div>
     </div>
   </div>
@@ -172,16 +174,16 @@ function myFunction() {
 <div class="images-container" id="images">
   <div class="images-wrapper">
   <div class="books-in-all-screens"><div class=brighten><a href="#">
-    <img src="images/book13.jpg" alt="ashley elston book"></a>
+    <img src="images/book11.jpg" alt="ashley elston book"></a>
   </div></div>
   <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-    <img src="images/book14.jpg" alt="batman book"></a>
+    <img src="images/book12.jpg" alt="batman book"></a>
   </div></div>
   <div class="books-in-medium-device-screens"><div class=brighten><a href="#">
-    <img src="images/book15.jpg" alt="mikubon book"></a>
+    <img src="images/book13.jpg" alt="mikubon book"></a>
   </div></div>
   <div class="books-out-small-device-screens"><div class=brighten><a href="#">
-    <img src="images/book16.jpg" alt="batman book"></a>
+    <img src="images/book14.jpg" alt="batman book"></a>
   </div></div>
   <div class="books-out-small-device-screens"><div class=brighten><a href="#">
     <img src="images/book17.jpg" alt="batman book"></a>
@@ -198,5 +200,18 @@ function myFunction() {
    <div class="theend"><a>© Goodreads, all rights reserved    |     This Page is a project by: Eloisa Docton for The Iron Yard Raleigh UI Design Course. </a>
    </div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $( ".mobilemenu li" ).hide();
+    $(".icon").click(function() {
+      $(".mobilemenu li").slideToggle();
+    })
+});
+</script>
+
+</script>
+   <script src="js/script.js"></script>
   </body>
 </html>

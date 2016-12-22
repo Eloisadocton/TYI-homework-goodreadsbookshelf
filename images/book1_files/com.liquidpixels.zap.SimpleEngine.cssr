@@ -1,0 +1,236 @@
+
+/*  ## Emitted on: Sat Nov 19 21:34:38 2016  (0.711405915514664)## */
+
+
+
+.com_liquidpixels_wui_loader_Pixels{
+margin: 0 auto;
+width: 120px;
+height: 20px;
+position: absolute;
+left: 0;
+top: 0;
+z-index: 10;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);}
+.com_liquidpixels_wui_loader_Pixels.hidden{
+display: none !important;}
+.com_liquidpixels_wui_loader_Pixels .com_liquidpixels_wui_loader_Pixels-pixels{
+opacity: 0;
+background-color: #000;
+float:left;
+height: 20px;
+margin-left: 15px;
+width: 20px;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-moz-border-radius:2px;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-webkit-border-radius:2px;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-ms-border-radius:2px;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-o-border-radius:2px;
+animation-iteration-count:infinite;
+animation-direction:linear;
+border-radius:2px;
+-moz-animation-duration:3s;
+-webkit-animation-duration:3s;
+-ms-animation-duration:3s;
+-o-animation-duration:3s;
+animation-duration:3s;
+-webkit-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);}
+.com_liquidpixels_wui_loader_Pixels .com_liquidpixels_wui_loader_Pixels-pixels:nth-child(1){
+background-color: #FF3333;
+-moz-animation-name:com_liquidpixels_wui_loader_Pixels_Animation1;
+-webkit-animation-name:com_liquidpixels_wui_loader_Pixels_Animation1;
+-ms-animation-name:com_liquidpixels_wui_loader_Pixels_Animation1;
+-o-animation-name:com_liquidpixels_wui_loader_Pixels_Animation1;
+animation-name:com_liquidpixels_wui_loader_Pixels_Animation1;}
+.com_liquidpixels_wui_loader_Pixels .com_liquidpixels_wui_loader_Pixels-pixels:nth-child(2){
+background-color: #0099CC;
+-moz-animation-name:com_liquidpixels_wui_loader_Pixels_Animation2;
+-webkit-animation-name:com_liquidpixels_wui_loader_Pixels_Animation2;
+-ms-animation-name:com_liquidpixels_wui_loader_Pixels_Animation2;
+-o-animation-name:com_liquidpixels_wui_loader_Pixels_Animation2;
+animation-name:com_liquidpixels_wui_loader_Pixels_Animation2;}
+.com_liquidpixels_wui_loader_Pixels .com_liquidpixels_wui_loader_Pixels-pixels:nth-child(3){
+background-color: #00CC66;
+-moz-animation-name:com_liquidpixels_wui_loader_Pixels_Animation3;
+-webkit-animation-name:com_liquidpixels_wui_loader_Pixels_Animation3;
+-ms-animation-name:com_liquidpixels_wui_loader_Pixels_Animation3;
+-o-animation-name:com_liquidpixels_wui_loader_Pixels_Animation3;
+animation-name:com_liquidpixels_wui_loader_Pixels_Animation3;}
+@-webkit-keyframes com_liquidpixels_wui_loader_Pixels_Animation1{
+10%{opacity: 0}
+30%{opacity: 1}
+60%{opacity: 1}
+80%{opacity: 0}
+100%{opacity: 0}}
+@keyframes com_liquidpixels_wui_loader_Pixels_Animation1{
+10%{opacity: 0}
+30%{opacity: 1}
+60%{opacity: 1}
+80%{opacity: 0}
+100%{opacity: 0}}
+@-webkit-keyframes com_liquidpixels_wui_loader_Pixels_Animation2{
+0%{opacity: 0}
+20%{opacity: 0}
+40%{opacity: 1}
+70%{opacity: 1}
+90%{opacity: 0}
+100%{opacity: 0}}
+@keyframes com_liquidpixels_wui_loader_Pixels_Animation2{
+0%{opacity: 0}
+20%{opacity: 0}
+40%{opacity: 1}
+70%{opacity: 1}
+90%{opacity: 0}
+100%{opacity: 0}}
+@-webkit-keyframes com_liquidpixels_wui_loader_Pixels_Animation3{
+0%{opacity: 0}
+30%{opacity: 0}
+50%{opacity: 1}
+80%{opacity: 1}
+100%{opacity: 0}}
+@keyframes com_liquidpixels_wui_loader_Pixels_Animation3{
+0%{opacity: 0}
+30%{opacity: 0}
+50%{opacity: 1}
+80%{opacity: 1}
+100%{opacity: 0}}
+body {
+padding: 0px;
+margin: 0px;
+color: black;
+height: 100%;
+width: 100%;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-webkit-text-size-adjust: none;}
+.viewpane {
+position: absolute;}
+.viewport {
+position: relative;}
+.blankDiv {
+border: none;
+display: none;
+position: absolute;}
+.tileImage {
+position: absolute;
+border: none;}
+.stitchedView {
+position: absolute;
+border: none;}
+.tile {
+position: absolute;
+border: none;}
+.overlay {
+position: relative;
+background-color: white;
+opacity: 0;
+-webkit-transform-origin: 50% 50%;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.tiled.canvas .overlay{
+position: absolute;
+top: 0;
+left: 0;}
+.layerPane {
+position: relative;}
+.waitimg {
+position: relative;}
+.homeIcon{
+position: absolute;
+bottom: 2px;
+right: 2px;
+cursor: pointer;}
+.homeIcon img{
+width: 30px;
+height: 30px;}
+.homeIcon img:active{
+position: relative;
+top:1px;}
+.captionArea{
+position: absolute;
+bottom: 2px;
+left: 2px;
+cursor: pointer;}
+.captionContainer::-webkit-scrollbar {
+width: 7px;}
+.captionContainer::-webkit-scrollbar:horizontal {
+height: 7px;}
+.captionContainer::-webkit-scrollbar-thumb {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 1);}
+.captionArea .captionButton{
+position: absolute;
+bottom: 0px;
+left: 0px;}
+.captionArea .captionBubble{
+background: rgb(0,0,0);
+background: rgba(0,0,0,0.8);
+color: #FFFFFF;
+font-family: Georgia;
+font-size: 0.875em;
+padding: 10px;
+border-radius: 15px;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+margin: 0 0 60px 0;}
+.captionArea .captionBubble:after{
+content: "";
+position: absolute;
+bottom: 43px;
+left: 15px;
+border-style: solid;
+border-width: 17px 17px 0;
+border-color: #000000 transparent;
+display: block;
+width: 0;
+z-index: 1;
+opacity: 0.8;}
+.captionArea .captionBubble .textFadeOut{
+position: absolute;
+bottom: 0; left: 0;
+width: 100%;
+text-align: center;
+margin: 0; padding: 30px 0;
+border-radius: 15px;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black));
+background-image: -webkit-linear-gradient(top, transparent, black);
+background-image: -moz-linear-gradient(top, transparent, black);
+background-image: -ms-linear-gradient(top, transparent, black);
+background-image: -o-linear-gradient(top, transparent, black);}
+.captionArea .captionContainer{
+position: relative;
+overflow: auto;}
+.captionArea .captionContainer .captionText{
+padding-right: 5px;
+text-align: justify;
+text-indent: 20px;}
+.captionArea img{
+width: 30px;
+height: 30px;}
+.controlPanelContainer{
+position: absolute;}
+.controlPanelContainer .controlPanelBody{
+background: rbg(0,0,0);
+background: rgba(0,0,0,0.8);}
+.controlPanelContainer .controlPanelButton img{
+width: 40px;
+display: block;
+margin: 0 auto;}
+#loader {
+position: absolute;
+left: 0;
+background-color: #fff;
+top: 0;}
+
